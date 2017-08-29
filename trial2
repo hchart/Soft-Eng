@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="Registerform.css"/>   
+  </head>
+  <h1>MH-HH Library Account</h1>
+  <h2></h2>
+
+  <ul id="menu" >
+      <li><a href="MHHHLibrary.html" class="tablinks" onclick="openEvent(event, 'Home')">Home</a></li>
+        <li><a href="Catalog.html" class="tablinks" onclick="openEvent(event, 'Our Catalog')">Our Catalog</a></li>
+        <li><a href="AboutUs1.html" class="tablinks" onclick="openEvent(event, 'About Us')">About Us</a></li>
+        </ul>
+        <body>Please update you account information here:</body>
+  	<form action="UpdateSuccess.html">
+  		<p>First Name:</p>
+  		<input type="text" name="firstname"><br>
+  		<p>Last Name:</p>
+  		<input type="text" name="lastname">
+  		<p>Student ID:</p>
+  		<input type="text" name="idnum">
+  		<p>Email Address:</p>
+  		<input type="text" name="Email">
+  		<input type="submit" value="Update My Account">
+	</form>
+<form action="UserAccount.html">
+  <input type="submit" value="Return to My Account">
+  </form>
+</html>
